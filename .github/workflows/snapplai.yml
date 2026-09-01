@@ -20,7 +20,7 @@ env:
 
   search_term: "Sales" #role
 
-  location: "Denmark" #check the list on file_config.txt
+  location: "Denmark,Switzerland" #check the list on file_config.txt
   
   results_wanted: "80" #max 50 if  only hybrid/remote max 35-40 if also on site
 
