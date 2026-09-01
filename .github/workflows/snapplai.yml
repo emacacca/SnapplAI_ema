@@ -18,12 +18,11 @@ env:
  
   site_name: "linkedin" #dont modify this
 
-  search_term: "Data Analyst" #role
+  search_term: "Sales" #role
 
-  location: "Italy,UK,Spain" #check the list on file_config.txt #for multi country write like this "italy,UK"
+  location: "Denmark" #check the list on file_config.txt
   
-  results_wanted: "33" # Max 100 results per run. For multiple countries, split evenly:
-                       # e.g. 3 countries → ~33 each (100 / 3)
+  results_wanted: "80" #max 50 if  only hybrid/remote max 35-40 if also on site
 
   hours_old: "6" # when it post
 
@@ -31,9 +30,9 @@ env:
 
   work_from_home: "True" # leave empty if you are interest also on site work
 
-  remote_only: "True" #if you consider to work full remote insert True ,if not leave empty
+  remote_only: "" #if you consider to work full remote insert True ,if not leave empty
 
-  dir_cv: "./your_cv_config/Valerio_Mezzopra_CV.pdf" #modifify after config\
+  dir_cv: "./your_cv_config/Emanuele_Campagna_CV.pdf" #modifify after config\
 
   score_config: "7" #this is the filter for the ai score, so the data ll filter for your number and up suggest 7 for 7-8-9-10 fit cv/JD
 
